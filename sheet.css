@@ -1,0 +1,157 @@
+.banner {
+    text-align: center;
+    background-image: url(images/background_image.webp);
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    border: 10px solid transparent;
+}
+.navigation {
+    margin: 15pt;
+    align-self: flex-end;
+    min-width: 200pt;
+    color: white;
+    text-align: center;
+    border: 10px solid transparent;
+    
+}
+main {
+    border-style: dotted;
+    background-color: rgb(186, 235, 241);
+    margin: 25px;
+}
+header {
+    padding: 10px;
+    background-color:rgb(160, 180, 229)
+}
+
+.module_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.module{
+    padding: 10px;
+    margin: 15px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    min-width: 50vw;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    flex-basis: 60%;
+}
+.IS-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #84cdf1;
+    border-color: #a5e7f4;
+    color: #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    font-size: larger;
+}
+.first.module {
+    background-color: blanchedalmond;
+}
+.second.module {
+    background-color: rgb(55, 183, 208);
+}
+.third.module {
+    background-color: rgb(209, 234, 121);
+}
+.fourth.module {
+    background-color: rgb(55, 208, 113);
+}
+.headings {
+    text-align: center;
+}
+@media (max-width: 600px) {
+    img {
+        border-radius: 50%;
+        height: 75pt;
+        width: 75pt;
+        margin: 5pt;
+        align-self: center;
+        text-align: center;
+    }
+}
+img {
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 300;
+    width: 100pt;
+    margin: 10pt;
+    align-self: center;
+    position: relative;
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+}
+.disciplines {
+    column-count: 2;
+}
+@media (max-width: 1750px) {
+    .module {
+        border-radius: 10px;
+        min-width: 50;
+        min-height: 200px;
+        border-style: dotted;
+        margin: 10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width: 1200px) {
+    .module {
+        border-radius: 10px;
+        min-width: 500px;
+        min-height: 400px;
+        flex-basis: 80%;
+        font-size: larger;
+        border-style: dotted;
+        margin: 10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width: 900px) {
+    .module   {
+        border-radius: 10px;
+        min-width: 350px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin: 10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width: 600px) {
+    .module {
+        border-radius: 10px;
+        min-width: 240px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin: 10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width: 600px) {
+    .disciplines {
+        column-count: 1;
+    }
+}
+@media (max-width: 1200px) {
+    .btn {
+        margin: 5px;
+    align-self: flex-end;
+    min-width: 50%;
+    }
+}
